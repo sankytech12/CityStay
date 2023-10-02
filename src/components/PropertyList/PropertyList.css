@@ -1,0 +1,22 @@
+.property-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 7rem;
+    padding: 7px 8px;
+    margin-bottom: 25px;
+    background-color: #1952c5;
+    color: aliceblue;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}

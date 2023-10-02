@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 30px;
+  font-family: "Poppins";
+}
+.tab {
+  background-color: #d7e3ec;
+  padding: 9px 15px;
+  border-radius: 25px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.active {
+  background-color: #1952c5;
+  color: aliceblue;
+}
